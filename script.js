@@ -9,9 +9,9 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagen light
 
-    img.setAttibute("src", "./assets/avatar-light.png");
+  img.setAttribute("src","./assets/quadra-light.jpg");
   } else {
     // se tiver sem o light mod, manter a imagem normal
-    img.setAttibute("src", "./assets/avatar.png");
+  img.setAttribute("src","./assets/quadra.jpg");
   }
 }
