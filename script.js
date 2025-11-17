@@ -9,7 +9,7 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagen light
 
-  img.setAttribute("src","./assets/quadra-light.jpg");
+  img.setAttribute("src","./assets/quadra2-light.jpg");
   } else {
     // se tiver sem o light mod, manter a imagem normal
   img.setAttribute("src","./assets/quadra.jpg");
